@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="container py-5" id="services">
+    <h2 class="text-center mb-5">My <span class="text-success">Services</span></h2>
+
+    <div class="row g-4 justify-content-center">
+        <!-- Service 1 -->
+        <div class="col-md-6 col-lg-4 d-flex">
+            <div class="card text-center border-2 rounded-4 p-4 shadow-sm d-flex flex-column h-100 service-hover">
+                <i class="bx bx-code display-1 mb-3 text-primary"></i>
+                <h3 class="h4 mb-2">Web Development</h3>
+                <p class="mb-4">
+                    Web development is the process of building and maintaining websites. It includes front-end development (designing user interfaces), backend development (server-side logic and databases), and full-stack development (both front-end and backend).
+                </p>
+                <div class="mt-auto">
+                    <a href="#" class="btn btn-success">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-md-6 col-lg-4 d-flex">
+            <div class="card text-center border-2 rounded-4 p-4 shadow-sm d-flex flex-column h-100 service-hover">
+                <i class="bx bx-palette display-1 mb-3 text-danger"></i>
+                <h3 class="h4 mb-2">UI/UX Developer</h3>
+                <p class="mb-4">
+                    UI (User Interface) development focuses on designing visually appealing and interactive elements of a website or app. UX (User Experience) development is about improving usability, accessibility, and the overall experience for users.
+                </p>
+                <div class="mt-auto">
+                    <a href="#" class="btn btn-success">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col-md-6 col-lg-4 d-flex">
+            <div class="card text-center border-2 rounded-4 p-4 shadow-sm d-flex flex-column h-100 service-hover">
+                <i class="bx bxl-android display-1 mb-3 text-success"></i>
+                <h3 class="h4 mb-2">App Development</h3>
+                <p class="mb-4">
+                    App development is the process of designing, building, and maintaining mobile or web applications. It involves front-end development for user interfaces, backend development for server-side functionality and ensuring smooth performance, security, and user experience.
+                </p>
+                <div class="mt-auto">
+                    <a href="#" class="btn btn-success">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+{% endblock %}
