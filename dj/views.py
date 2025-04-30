@@ -15,3 +15,11 @@ def services(request):
 def testimonial(request):
 
     return render(request, 'testimonial.html')
+
+def contact(request):
+    
+    return render (request, 'contact.html')
+
+def footer(request):
+
+    return render(request, 'footer.html')
